@@ -1,6 +1,7 @@
 body {
 	font-size: 100%;
 	font-family: arial, helvetica, sans-serif;
+	background-color: #bde8f0;
 }
 
 a {
@@ -9,7 +10,7 @@ a {
 }
 
 header {
-	margin: 0 auto 0 auto;
+	/*margin: 0 auto 0 auto;*/
 	overflow: hidden;
 	background-color: #3f3f3f;
 	color: white
@@ -18,15 +19,14 @@ header {
 #myName {
 	font-family: Lobster, serif;
 	font-size: 3em;
-	width: 80%;
-	margin: 1% auto ;	
+	/*width: 80%;*/
+	margin: .25em 0 .25em .625em;
 }
 
 
-nav {
-	width: 80%;
+/*	width: 80%;
 	margin: 1% auto ;
-}
+}*/
 
 nav ul {
 	padding: 0;
@@ -35,15 +35,24 @@ nav ul {
 
 nav li {
 	list-style-type: none;
-	padding: 2em 0;
+	padding: .625em 2em;
+	border-top: 1px solid #4f4f4f;
 	/*float: left;	
 	margin-left: 10px;
 	font-size: 1.75em;*/
 }
 
-/*nav li:first-child {
-	margin-left: 10%;
-}*/
+#navCollapse {
+	display: none;
+	color: white;
+	text-align: right;
+	width: 100%;
+	padding: .625em 0 .625em 0;
+}
+
+#navCollapse.active {
+	display: block;
+}
 
 #mainSection {
 	width: 80%;
@@ -58,6 +67,11 @@ section {
 article {
 	color: #3f3f3f;
 	font-family: Vollkorn, serif;
+}
+
+article h1 {
+	font-family: Vollkorn, serif;
+	font-style: italic;
 }
 
 footer {
