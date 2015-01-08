@@ -9,48 +9,55 @@ a {
 }
 
 header {
-	/*width: 80%;*/
-	margin: 2% auto 0 auto;
+	margin: 0 auto 0 auto;
 	overflow: hidden;
-	background-color: #0047ab;
+	background-color: #3f3f3f;
 	color: white
 }
 
-header h1 {
-	margin-bottom: 0;
+#myName {
+	font-family: Lobster, serif;
+	font-size: 3em;
+	width: 80%;
+	margin: 1% auto ;	
 }
 
-header h2 {
-	font-size: 1.1em;
-	margin-top: 0;
-}
-
-hgroup {
-	float: left;
-	margin-left: 2%
-}
 
 nav {
-	float: right;
-	width: 50%;
+	width: 80%;
+	margin: 1% auto ;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0 auto;
 }
 
 nav li {
-	float: left;
 	list-style-type: none;
+	padding: 2em 0;
+	/*float: left;	
 	margin-left: 10px;
-	/*font-size: 1.75em;*/
+	font-size: 1.75em;*/
 }
 
-nav li:first-child {
+/*nav li:first-child {
 	margin-left: 10%;
+}*/
+
+#mainSection {
+	width: 80%;
 }
 
 section {
 	/*width: 80%;*/
 	margin-left: auto;
 	margin-right: auto;
+}
+
+article {
 	color: #3f3f3f;
+	font-family: Vollkorn, serif;
 }
 
 footer {
@@ -67,4 +74,10 @@ footer p {
 
 footer picture {
 	float: right;
+}
+
+#fgroup {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
 }
