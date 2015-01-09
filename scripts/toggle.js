@@ -6,4 +6,10 @@ $(document).ready(function() {
 
 	});
 
+	$('.not-clicked').click(function() {
+
+		$(this).toggleClass('clicked');
+
+	});
+
 });
