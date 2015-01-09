@@ -18,40 +18,34 @@ header {
 
 #myName {
 	font-family: Lobster, serif;
-	font-size: 3em;
-	/*width: 80%;*/
+	font-size: 2em;
+	float: left;
 	margin: .25em 0 .25em .625em;
 }
 
+#menu-trigger {
+	float: right;
+	margin-right: 2em;
+	margin-top: .6em;
+	padding: 0.5em;
+	border: 1px solid #4f4f4f;
+}
 
-/*	width: 80%;
-	margin: 1% auto ;
-}*/
+#nav {
+	display: none;
+}
 
 nav ul {
 	padding: 0;
 	margin: 0 auto;
+	clear: both;
 }
 
 nav li {
 	list-style-type: none;
 	padding: .625em 2em;
 	border-top: 1px solid #4f4f4f;
-	/*float: left;	
-	margin-left: 10px;
-	font-size: 1.75em;*/
-}
-
-#navCollapse {
-	display: none;
-	color: white;
-	text-align: right;
-	width: 100%;
-	padding: .625em 0 .625em 0;
-}
-
-#navCollapse.active {
-	display: block;
+	/*float: left;*/
 }
 
 #mainSection {
