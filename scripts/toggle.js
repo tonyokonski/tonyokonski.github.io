@@ -12,19 +12,10 @@ $(document).ready(function() {
 
 	});
 
-	$('#nav li').click(function() { //close, not there yet; maybe add an 'and' for an active state
+	$('#nav li').click(function() {
 
-		if ( $("#nav li").hasClass('clicked') ) {
-
-  			$("#nav li").removeClass('clicked');
-
-  		}
-
-  		else {
-
-  			$(this).addClass('clicked');
-
-  		};
+		$('#nav li').removeClass('clicked');
+		$(this).addClass('clicked');
 
 	});
 
