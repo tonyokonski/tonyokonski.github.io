@@ -4,6 +4,21 @@ body {
 	background-color: #bde8f0;
 }
 
+img,
+object,
+video {
+	max-width: 100%;
+}
+
+#portrait-container {
+	float: left;
+	margin-right: .65em;
+}
+
+#portrait:hover {
+	background-image: url(images/portrait-rollover.png);
+}
+
 a {
 	text-decoration: none;
 	color: white;
@@ -57,21 +72,18 @@ nav li {
 
 section {
 	/*width: 80%;*/
+	color: #3f3f3f;
+	font-family: Vollkorn, serif;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-article {
-	color: #3f3f3f;
-	font-family: Vollkorn, serif;
-}
-
-article h1 {
+section h1 {
 	font-family: Vollkorn, serif;
 	font-style: italic;
 }
 
-article a {
+section a {
 	color: #3f3f3f;
 	text-decoration: underline;
 }
