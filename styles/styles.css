@@ -29,10 +29,6 @@ header {
 	color: white
 }
 
-#intro header {
-	margin-top: 2em;
-}
-
 #myName {
 	font-family: Lobster, serif;
 	font-size: 2em;
@@ -78,11 +74,6 @@ section {
 	font-family: Vollkorn, serif;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-section h1 {
-	font-family: Vollkorn, serif;
-	font-style: italic;
 }
 
 section a {
