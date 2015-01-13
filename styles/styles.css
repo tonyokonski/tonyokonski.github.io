@@ -12,11 +12,7 @@ video {
 
 #portrait-container {
 	float: left;
-	margin-right: .65em;
-}
-
-#portrait:hover {
-	background-image: url(images/portrait-rollover.png);
+	margin-right: 1em;
 }
 
 a {
@@ -25,10 +21,16 @@ a {
 }
 
 header {
-	/*margin: 0 auto 0 auto;*/
 	overflow: hidden;
+}
+
+#top-header {
 	background-color: #3f3f3f;
 	color: white
+}
+
+#intro header {
+	margin-top: 2em;
 }
 
 #myName {
