@@ -94,6 +94,17 @@ section a {
 	text-decoration: underline;
 }
 
+figure {
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+	margin: .5em 0;
+}
+
+figcaption {
+	margin: 1em auto;
+}
+
 footer {
 	/*width: 80%;*/
 	margin: 2% auto 0 auto;
@@ -122,3 +133,35 @@ footer picture {
 	margin-left: auto;
 	color: white;
 }
+
+/* skillset graph styles begin here. */
+
+#my-graph {
+	background-color: #3f3f3f;
+	color: white;
+	margin-top: 1em;
+	padding: .625em 2em;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.graph-skill {
+	margin-top: .75em;
+}
+
+.graph-skill:first-child {
+	margin-top: 0;
+}
+
+.skill-bar {
+	height: 1.5em;
+	width: 10%;
+	background-color: white;
+	border-radius: 5px;
+	margin-top: .10em;
+}
+
+.skill-bar:last-child {
+	margin-bottom: .5em;
