@@ -9,6 +9,11 @@ body {
 	min-height: 100%;
 }
 
+.center {
+	margin-left: auto;
+	margin-right:auto;
+}
+
 img,
 object,
 video {
@@ -27,10 +32,14 @@ a {
 
 header {
 	overflow: hidden;
-	position: fixed; /*need to make this more user friendly; currently covers up the target id */
-	top: 0;
+	/*position: fixed; need to make this more user friendly; currently covers up the target id 
+	top: 0;*/
 	width: 100%;
 }
+
+/*.menu-padding { 
+	padding-top: 65px;
+}*/
 
 p {
 	margin: .5em auto;
@@ -38,7 +47,8 @@ p {
 
 #top-header {
 	background-color: #3f3f3f;
-	color: white
+	color: white;
+	display: block;
 }
 
 #my-name {
@@ -97,10 +107,6 @@ section a {
 	text-decoration: underline;
 }
 
-#graph-container {
-	margin: .5em 0;
-}
-
 small {
 	margin-left: auto;
 	margin-right: auto;
@@ -137,8 +143,13 @@ footer picture {
 
 /* skillset graph styles begin here. */
 
+
+#graph-container {
+	margin: .5em 0;
+}
+
 #my-graph {
-	background-color: #3f3f3f;
+	background-color: #5e5e5e;
 	color: white;
 	margin-top: 1em;
 	padding: .625em 2em;
@@ -166,6 +177,32 @@ footer picture {
 
 .skill-bar:last-child {
 	margin-bottom: .5em;
+}
+
+#skill-measure{
+	height: 3px;
+	width: 100%;
+	margin-top: 15px;
+	background-color: white;
+	background: -webkit-linear-gradient(left, yellow , red);
+    background: -o-linear-gradient(right, yellow, red);
+    background: -moz-linear-gradient(right, yellow, red);
+    background: linear-gradient(to right, yellow , red);
+}
+
+.skill-caption {
+	width: 100%;
+}
+
+#yellow {
+	float: left;
+	color: yellow;
+}
+
+#red {
+	float: right;
+	color: red;
+	text-shadow: 0 0 8px yellow;
 }
 
 /* end skillset graph styles */

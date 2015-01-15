@@ -41,4 +41,12 @@ $(document).ready(function() {
 
 	});
 
+	//menu hide on scroll attempt. Need a conditional to constrain it to mobile viewports.
+
+	/*$(window).scroll(function() {
+
+		$('header').css("top", "-50").fadeOut('slow');
+
+	});*/
+
 });
