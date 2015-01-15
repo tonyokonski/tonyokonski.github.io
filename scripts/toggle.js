@@ -16,12 +16,14 @@ $(document).ready(function() {
 
 	});
 
-	//responsive menu list highlight function
+	//responsive menu list highlight function. Needs work.
 
 	$('#nav li').click(function() {
 
 		$('#nav li').removeClass('clicked');
 		$(this).addClass('clicked');
+		$('#nav').slideToggle();
+		$('.not-clicked').toggleClass('clicked');
 
 	});
 

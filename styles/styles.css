@@ -27,6 +27,9 @@ a {
 
 header {
 	overflow: hidden;
+	position: fixed; /*need to make this more user friendly; currently covers up the target id */
+	top: 0;
+	width: 100%;
 }
 
 p {
@@ -94,15 +97,13 @@ section a {
 	text-decoration: underline;
 }
 
-figure {
-	margin-right: auto;
-	margin-left: auto;
-	overflow: hidden;
+#graph-container {
 	margin: .5em 0;
 }
 
-figcaption {
-	margin: 1em auto;
+small {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 footer {
@@ -165,3 +166,6 @@ footer picture {
 
 .skill-bar:last-child {
 	margin-bottom: .5em;
+}
+
+/* end skillset graph styles */
