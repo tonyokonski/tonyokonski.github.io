@@ -95,7 +95,6 @@ nav li {
 }
 
 section {
-	/*width: 80%;*/
 	color: #3f3f3f;
 	font-family: Vollkorn, serif;
 	margin-left: auto;
@@ -169,8 +168,9 @@ footer picture {
 
 .skill-bar {
 	height: 1.5em;
-	width: 10%;
+	width: 5%;
 	background-color: white;
+	/*background: white;*/
 	border-radius: 5px;
 	margin-top: .10em;
 }
@@ -201,8 +201,8 @@ footer picture {
 
 #red {
 	float: right;
-	color: red;
-	text-shadow: 0 0 8px yellow;
+	color: white;
+	text-shadow: 0 0 8px red;
 }
 
 /* end skillset graph styles */

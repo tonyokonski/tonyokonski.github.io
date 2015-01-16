@@ -34,7 +34,8 @@ $(document).ready(function() {
 		$('.skill-bar').each(function(){
 
 			$(this).animate({
-				width:$(this).attr('data-percentage')
+				width:$(this).attr('data-percentage'),
+				backgroundColor:$(this).attr('data-color')
 			}, 3000 );
 
 		});
