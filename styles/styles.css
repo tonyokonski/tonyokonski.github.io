@@ -146,7 +146,7 @@ footer picture {
 	background-color: #5e5e5e;
 	color: white;
 	margin-top: 1em;
-	padding: .625em 2em;
+	padding: .625em 2em .75em 2em;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
@@ -199,5 +199,6 @@ footer picture {
 	color: white;
 	text-shadow: 0 0 8px red;
 }
+
 
 /* end skillset graph styles */
