@@ -32,9 +32,19 @@ a {
 
 header {
 	overflow: hidden;
-	/*position: fixed; need to make this more user friendly; currently covers up the target id 
-	top: 0;*/
 	width: 100%;
+	background-color: #3f3f3f;
+	color: white;
+	display: block;
+	/*testing for disappearing header*/
+	/*height: 56px;*/
+	position: fixed;
+	top: 0;
+	transition: top 0.2s ease-in-out;
+}
+
+.nav-up {
+    top: -56px;
 }
 
 /*.menu-padding { 
@@ -45,11 +55,11 @@ p {
 	margin: .5em auto;
 }
 
-#top-header {
+/*#top-header {
 	background-color: #3f3f3f;
 	color: white;
 	display: block;
-}
+} rolling this into header test */
 
 #my-name {
 	font-family: Lobster, serif;
