@@ -40,6 +40,10 @@ $(document).ready(function() {
 
 		});
 
+		/*$('#red').animate({
+			color:$(this).attr('data-color')
+		}, 3000);*/
+
 	});
 
 	//menu hide on scroll attempt. Solution found at https://medium.com/@mariusc23/hide-header-on-scroll-down-show-on-scroll-up-67bbaae9a78c. 
