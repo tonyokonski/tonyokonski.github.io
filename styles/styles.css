@@ -35,7 +35,7 @@ header {
 	/*height: 56px;*/
 	position: fixed;
 	top: 0;
-	transition: top 0.2s ease-in-out;
+	transition: top 0.1s ease-in-out;
 }
 
 .nav-up {
@@ -47,7 +47,7 @@ p {
 }
 
 #my-name {
-	font-family: Lobster, cursive, serif;
+	font-family: Lobster, sans-serif;
 	font-size: 2em;
 	float: left;
 	margin: .25em 0 .25em .625em;
@@ -75,6 +75,10 @@ nav li {
 	list-style-type: none;
 	padding: .625em 2em;
 	border-top: 1px solid #4f4f4f;
+}
+
+nav li a {
+	display: block;
 }
 
 .clicked {
@@ -202,3 +206,30 @@ footer picture {
 
 
 /* end skillset graph styles */
+
+/* begin media queries */
+
+@media screen and (min-width: 600px) {
+	
+	#menu-trigger {
+		display: none;
+	}
+	
+	nav {
+		float: right;
+	}
+
+	#nav {
+		display: block;
+		float: right;
+	}
+
+	nav li {
+		float: left;
+		padding: 0;
+		margin: 1.30em 2em 0 0;
+		border-top: none;
+	}
+
+
+}
