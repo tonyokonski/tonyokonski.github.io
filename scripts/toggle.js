@@ -1,22 +1,22 @@
 $(document).ready(function() {
 
-	//variable caching for frequently used elements
+	//caching for frequently used elements
 
-	/*var $not-clicked = $('.not-clicked');
-	var $nav = $('#nav');*/
+	var $notClicked = $('.not-clicked');
+	var $nav = $('#nav');
 
 
 	//responsive menu accordion toggle
 
 	$('#menu-trigger').click(function() {
 
-		$('#nav').slideToggle();
+		$nav.slideToggle();
 
 	});
 
 	//responsive menu button on/off indication
 
-	$('.not-clicked').click(function() {
+	$notClicked.click(function() {
 
 		$(this).toggleClass('clicked');
 
@@ -28,8 +28,8 @@ $(document).ready(function() {
 
 		$('#nav li').removeClass('clicked');
 		$(this).addClass('clicked');
-		$('#nav').slideToggle();
-		$('.not-clicked').toggleClass('clicked');
+		$nav.slideToggle();
+		$notClicked.toggleClass('clicked');
 
 	});
 
