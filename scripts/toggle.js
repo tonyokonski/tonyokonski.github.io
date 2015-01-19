@@ -1,5 +1,11 @@
 $(document).ready(function() {
 
+	//variable caching for frequently used elements
+
+	/*var $not-clicked = $('.not-clicked');
+	var $nav = $('#nav');*/
+
+
 	//responsive menu accordion toggle
 
 	$('#menu-trigger').click(function() {
