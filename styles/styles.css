@@ -35,11 +35,12 @@ header {
 	/*height: 56px;*/
 	position: fixed;
 	top: 0;
-	transition: top 0.1s ease-in-out;
+	transition: top 0.2s ease-in-out;
 }
 
 .nav-up {
-    top: -56px;
+    /*top: -56px;*/
+    top: -210px;
 }
 
 p {
@@ -105,10 +106,10 @@ section a {
 	text-decoration: underline;
 }
 
-small {
+/*small {
 	margin-left: auto;
 	margin-right: auto;
-}
+}*/
 
 footer {
 	/*width: 80%;*/

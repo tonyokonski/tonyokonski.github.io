@@ -26,10 +26,14 @@ $(document).ready(function() {
 
 	$('#nav li').click(function() {
 
-		$('#nav li').removeClass('clicked');
-		$(this).addClass('clicked');
-		$nav.slideToggle();
-		$notClicked.toggleClass('clicked');
+		if ($(window).width() < 600) {
+
+			$('#nav li').removeClass('clicked');
+			$(this).addClass('clicked');
+			$nav.slideToggle();
+			$notClicked.toggleClass('clicked');
+
+		};
 
 	});
 
