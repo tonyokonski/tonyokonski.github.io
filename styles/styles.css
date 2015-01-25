@@ -15,6 +15,11 @@ video {
 	max-width: 100%;
 }
 
+hr {
+	clear: both;
+	display: none;
+}
+
 #portrait-container {
 	float: left;
 	margin-right: 1em;
@@ -88,6 +93,8 @@ nav li a {
 
 #main-section {
 	width: 80%;
+	max-width: 1200px;
+	overflow: hidden;
 }
 
 #main-section h1 {
@@ -106,10 +113,6 @@ section a {
 	text-decoration: underline;
 }
 
-/*small {
-	margin-left: auto;
-	margin-right: auto;
-}*/
 
 footer {
 	/*width: 80%;*/
@@ -118,6 +121,7 @@ footer {
 	font-size: .85em;
 	color: white;
 	overflow: hidden;
+	clear: both;
 }
 
 footer p {
@@ -142,9 +146,23 @@ footer picture {
 
 /* skillset graph styles begin here. */	
 
+#hireable-and-projects, #graph {
+	width: 100%;
+	overflow: hidden;
+}
+
 #graph-container {
 	margin: .5em 0;
 }
+
+#adjacent-directions {
+	display: none;
+}
+
+/*#gray-helper {
+	color: white;
+	background-color: #5e5e5e;
+}*/
 
 #my-graph {
 	background-color: #5e5e5e;
@@ -183,7 +201,7 @@ footer picture {
 	width: 100%;
 	margin-top: 15px;
 	background-color: white;
-	background: -webkit-linear-gradient(right, yellow , red);
+	background: -webkit-linear-gradient(left, yellow , red);
     background: -o-linear-gradient(right, yellow, red);
     background: -moz-linear-gradient(right, yellow, red);
     background: linear-gradient(to right, yellow , red);
@@ -233,3 +251,42 @@ footer picture {
 
 
 }
+
+@media screen and (min-width: 700px) {
+
+	hr {
+		display: block;
+		margin-top: 2%;
+	}
+
+	#stacked-directions {
+		display: none;
+	}
+
+	#adjacent-directions {
+		display: inline;
+	}
+
+	.one-half-container {
+		width: 47%;
+	}
+
+	.one-half-container-graph {
+		width: 41%;
+	}
+
+	#hireable, #projects, #graph {
+		display: inline;
+	}
+
+	#hireable, #graph-intro {
+		float: left;
+	}
+
+	#projects, #my-graph {
+		float: right;
+	}
+
+
+}
+/*need to tinker */
