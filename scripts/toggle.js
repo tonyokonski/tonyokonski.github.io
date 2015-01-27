@@ -30,7 +30,7 @@ $(document).ready(function() {
 
 			$('#nav li').removeClass('clicked');
 			$(this).addClass('clicked');
-			$nav.slideToggle();
+			//$nav.slideToggle();
 			$notClicked.toggleClass('clicked');
 
 		};

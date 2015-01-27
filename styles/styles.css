@@ -296,16 +296,40 @@ footer picture {
 		float: right;
 	}
 
+	#pictures {
+		display: block;
+		width: 100%;
+		height: 0px;
+		background: black url("../images/pantheon-medium.jpg") no-repeat center;
+		background-size: contain;
+		padding-top: 20.83%
+	}
+
 
 }
+
+/*@media screen and (min-width: 1024px) {
+
+	#pictures {
+		display: block;
+		width: 100%;
+		height: 0px;
+		background: black url("../images/pantheon-medium.jpg") no-repeat center;
+		background-size: contain;
+		padding-top: 20.83%
+	}
+
+}*/
 
 @media screen and (min-width: 1200px) {
 
 	#pictures {
 		display: block;
 		width: 100%;
-		height: 435px; /* shameful hack until I find the reason for the vertical collapse */
+		height: 0px;
 		background: black url("../images/pantheon-large.jpg") no-repeat center;
+		background-size: contain;
+		padding-top: 31.07%
 	}
 
 }
