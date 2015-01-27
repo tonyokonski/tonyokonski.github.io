@@ -247,7 +247,7 @@ footer picture {
 	}
 
 	#nav {
-		display: block;
+		display: block !important; /* !important used to override inline style injected { display: none; } by .slideToggle() */
 		float: right;
 	}
 
