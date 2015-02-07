@@ -50,6 +50,11 @@ p {
 	margin: .5em auto;
 }
 
+#top-space {
+	background-color: transparent;
+	height: 56px;
+}
+
 #my-name {
 	font-family: Lobster, sans-serif;
 	font-size: 2em;
@@ -235,7 +240,11 @@ footer picture {
 /* begin media queries */
 
 @media screen and (min-width: 600px) {
-	
+
+	#top-space {
+		background-color: #3f3f3f;
+	}
+
 	#menu-trigger {
 		display: none;
 	}
@@ -254,6 +263,7 @@ footer picture {
 		padding: 0;
 		margin: 1.30em 2em 0 0;
 		border-top: none;
+		background: transparent !important; /* !important used to override inline style { background: #5f5f5f; } .$('#nav li').click(function() */
 	}
 
 }
@@ -343,7 +353,7 @@ footer picture {
 @media screen and (min-width: 1054px) {
 
 	#portrait-container {
-		margin: 3.29em auto;
+		margin: 3.25em auto;
 	}
 
 }  
@@ -364,7 +374,7 @@ footer picture {
 	#portrait-container {
 		width: 35%;
 		height: auto;
-		margin: 10.75% auto;
+		margin: 10.70% auto;
 		color: white;
 		font-family: Vollkorn, serif;
 		overflow: hidden;
