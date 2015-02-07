@@ -4,7 +4,6 @@ html {
 
 body {
 	font-size: 100%;
-	font-family: arial, helvetica, sans-serif;
 	background-color: #bde8f0;
 	min-height: 100%;
 }
@@ -13,15 +12,6 @@ img,
 object,
 video {
 	max-width: 100%;
-}
-
-picture {
-	width: 100%;
-}
-
-hr {
-	clear: both;
-	display: none;
 }
 
 a {
@@ -42,7 +32,6 @@ header {
 }
 
 .nav-up {
-    /*top: -56px;*/
     top: -210px;
 }
 
@@ -56,7 +45,7 @@ p {
 }
 
 #my-name {
-	font-family: Lobster, sans-serif;
+	font-family: Lobster, arial, helvetica, sans-serif;
 	font-size: 2em;
 	float: left;
 	margin: .25em 0 .25em .625em;
@@ -96,7 +85,7 @@ nav li a {
 
 #main-section {
 	width: 80%;
-	max-width: 1200px;
+	max-width: 75em;
 	overflow: hidden;
 }
 
@@ -135,10 +124,6 @@ footer a {
 	text-decoration: underline;
 }
 
-footer picture {
-	float: right;
-}
-
 #fgroup {
 	width: 80%;
 	margin-right: auto;
@@ -161,15 +146,10 @@ footer picture {
 	display: none;
 }
 
-/*#gray-helper {
-	color: white;
-	background-color: #5e5e5e;
-}*/
-
 #my-graph {
 	background-color: #5e5e5e;
 	color: white;
-	margin-top: 1em;
+	margin: 1em 0 1.5em 0;
 	padding: .625em 2em .75em 2em;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -189,7 +169,6 @@ footer picture {
 	height: 1.5em;
 	width: 5%;
 	background-color: white;
-	/*background: white;*/
 	border-radius: 5px;
 	margin-top: .10em;
 }
@@ -228,13 +207,6 @@ footer picture {
 
 #pictures {
 	display: none;
-}
-
-#test {  /* for testing purposes... obviously */
-	width: 35%;
-	height: 150px;
-	background-color: black;
-	margin: 9.65% auto;
 }
 
 /* begin media queries */
@@ -293,10 +265,8 @@ footer picture {
 	#pictures {
 		display: block;
 		width: 100%;
-		/*height: 0px;*/
 		background-size: contain;
 		background: #433623 url("../images/pantheon-medium.jpg") no-repeat center;
-		/*padding-top: 20.83%;*/
 		overflow: hidden;
 	}
 
@@ -333,10 +303,6 @@ footer picture {
 		display: inline;
 	}
 
-	/*#graph {
-		display: inline;
-	}*/
-
 	#graph-intro {
 		float: left;
 		width: 47%;
@@ -345,7 +311,9 @@ footer picture {
 	#my-graph {
 		float: right;
 		width: 43%;
-		padding-left: 1em;
+		padding-left: 1.25em;
+		padding-right: 1.5em;
+		margin-bottom: .75em;
 	}
 
 }
@@ -361,35 +329,12 @@ footer picture {
 @media screen and (min-width: 1200px) {
 
 	#pictures {
-		display: block;
-		/*position: relative;*/
-		width: 100%;
-		/*height: 0px;*/
-		background-size: contain;
 		background: #433623 url("../images/pantheon-large.jpg") no-repeat center;
-		/*padding-top: 31.07%;*/
-		overflow: hidden;
 	}
 
 	#portrait-container {
 		width: 35%;
-		height: auto;
 		margin: 10.70% auto;
-		color: white;
-		font-family: Vollkorn, serif;
-		overflow: hidden;
-	}
-
-	#portrait-container div {
-		float: left;
-		height: 144px;
-		margin-right: 1.5em;
-		border: solid 1px white;
-		border-radius: 60%;
-	}
-
-	#portrait-container h1 {
-		margin-bottom: .25em;
 	}
 
 }
