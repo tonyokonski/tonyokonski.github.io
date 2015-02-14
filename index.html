@@ -1,138 +1,91 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+title: The Web Portfolio of Tony Okonski
+include-footer: true
+---
 
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width">
-		<title>The Web Portfolio of Tony Okonski</title>
-		<link rel="stylesheet" type="text/css" href="styles/normalize.css">
-		<link rel="stylesheet" type="text/css" href="styles/styles.css">
-		<link href='http://fonts.googleapis.com/css?family=Lobster|Vollkorn' rel='stylesheet' type='text/css'>
-	</head>
+<div id="pictures">
 
-	<body id="tip-top">
+  <div id="portrait-container">
 
-		<div id="top-space"></div>
+    <div><img src="images/portrait/portrait-initial-tiny-hover.png" id="my-portrait" alt="my portrait" /></div>
 
-		<header class="nav-down" role="banner">
-			
-			<h1 id="my-name">Tony Okonski</h1>
-			
-			<a href="#" id="menu-trigger" class="not-clicked">MENU</a>
-			
-			<nav>
-				<ul id="nav">
-					<li><a href="coming-soon.html">about</a></li>
-					<li><a href="coming-soon.html">contact</a></li>
-					<li><a href="coming-soon.html">projects</a></li>
-					<li><a href="#tip-top">home</a></li>
-				</ul>
-			</nav>
+    <h1>Welcome!</h1>
 
-		</header>
+    <p>My name is Tony and I build stuff for the web. May I build something for you?</p>
 
-		<div id="pictures">
+  </div>
 
-			<div id="portrait-container">
+</div>
 
-				<div><img src="images/portrait/portrait-initial-tiny-hover.png" id="my-portrait" alt="my portrait" /></div>
+<section id="main-section">
 
-				<h1>Welcome!</h1>
+  <section id="hireable-and-projects">
 
-				<p>My name is Tony and I build stuff for the web. May I build something for you?</p>
+    <section class="one-half-container" id="hireable">      
 
-			</div>
+      <h1>Why you should hire me</h1>
 
-		</div>
+      <p>
+        Straight to the point: I want to help you and your company win at everything web-related. I have a passion for web design and development, and would love to be a part of a team that builds high-quality websites and useful, intelligent tools for your customers. Attention to detail, hard work, and the desire to learn are the foundation of my work flow. Feel free to cruise around and learn about my experience. Check back often as this will be the platform for my many ideas for web projects. Cheers!
+      </p>
 
-		<section id="main-section">
+    </section>
 
-			<section id="hireable-and-projects">
+    <div id="menu-projects"></div>
 
-				<section class="one-half-container" id="hireable">			
+    <section class="one-half-container" id="projects">        
 
-					<h1>Why you should hire me</h1>
+      <h1>Some of my work</h1>
 
-					<p>
-						Straight to the point: I want to help you and your company win at everything web-related. I have a passion for web design and development, and would love to be a part of a team that builds high-quality websites and useful, intelligent tools for your customers. Attention to detail, hard work, and the desire to learn are the foundation of my work flow. Feel free to cruise around and learn about my experience. Check back often as this will be the platform for my many ideas for web projects. Cheers!
-					</p>
+      <p>
+        Right now, this website is the extent of my live web design and development work. I've designed another website that is no longer live, and that project has its own story which I will publish as soon as possible. I'll also link to a project page that describes my experience building this site. As I populate this site with more projects, you will be able to click on their respective project pages to get an idea of my work-flow, see how I identified and overcame obstacles, and what I learned along the way.
+      </p>
 
-				</section>
+    </section>
 
-				<div id="menu-projects"></div>
+  </section>      
 
-				<section class="one-half-container" id="projects">				
+  <section id="graph">
 
-					<h1>Some of my work</h1>
+    <div id="graph-intro">      
 
-					<p>
-						Right now, this website is the extent of my live web design and development work. I've designed another website that is no longer live, and that project has its own story which I will publish as soon as possible. I'll also link to a project page that describes my experience building this site. As I populate this site with more projects, you will be able to click on their respective project pages to get an idea of my work-flow, see how I identified and overcame obstacles, and what I learned along the way.
-					</p>
+      <h1>Obligatory animated skill set graph</h1>
 
-				</section>
+      <p>
+        It seems that many web developers like to communicate their expertise via animated graphs. Whether or not this is an effective measure of anything has been subject to intense debate; however, I wanted to include the <span id="stacked-directions">below graph</span><span id="adjacent-directions">graph to the right</span> in order to show that I have skills, and that they are indeed graph worthy. Tap or click anywhere in the <span id="gray-helper">gray background</span> to see my awesomeness in using these specially selected technologies.
+      </p>
 
-			</section>			
+    </div>
 
-			<section id="graph">
+    <div id="my-graph">
 
-				<div id="graph-intro">			
+      <div id="graph-container">
 
-					<h1>Obligatory animated skill set graph</h1>
+        <div class="graph-skill">Bacon</div>
 
-					<p>
-						It seems that many web developers like to communicate their expertise via animated graphs. Whether or not this is an effective measure of anything has been subject to intense debate; however, I wanted to include the <span id="stacked-directions">below graph</span><span id="adjacent-directions">graph to the right</span> in order to show that I have skills, and that they are indeed graph worthy. Tap or click anywhere in the <span id="gray-helper">gray background</span> to see my awesomeness in using these specially selected technologies.
-					</p>
+        <div class="skill-bar" data-percentage="75%" data-color="#FF3E00"></div>
 
-				</div>
+        <div class="graph-skill">Coffee</div>
 
-				<div id="my-graph">
+        <div class="skill-bar" data-percentage="90%" data-color="#FF1900"></div>
 
-					<div id="graph-container">
+        <div class="graph-skill">Guacamole</div>
 
-						<div class="graph-skill">Bacon</div>
+        <div class="skill-bar" data-percentage="50%" data-color="#FF8000"></div>
 
-						<div class="skill-bar" data-percentage="75%" data-color="#FF3E00"></div>
+        <div class="graph-skill">Dance</div>
 
-						<div class="graph-skill">Coffee</div>
+        <div class="skill-bar" data-percentage="20%" data-color="#FFE600"></div>
 
-						<div class="skill-bar" data-percentage="90%" data-color="#FF1900"></div>
+        <div id="skill-measure"></div>
 
-						<div class="graph-skill">Guacamole</div>
+        <div class="skill-caption"><small id="yellow">less awesome</small><small id="red">more awesome</small></div>
 
-						<div class="skill-bar" data-percentage="50%" data-color="#FF8000"></div>
+      </div>
 
-						<div class="graph-skill">Dance</div>
+    </div>        
 
-						<div class="skill-bar" data-percentage="20%" data-color="#FFE600"></div>
+  </section>
 
-						<div id="skill-measure"></div>
-
-						<div class="skill-caption"><small id="yellow">less awesome</small><small id="red">more awesome</small></div>
-
-					</div>
-
-				</div>				
-
-			</section>
-
-		</section>
-
-		<footer>
-
-			<section id="fgroup">
-				<p>
-					Copyright © 2015 Tony Okonski. Return to the <a href="#tip-top">top</a>.
-				</p>
-
-			</section>
-
-		</footer>
-
-		<script type="text/javascript" src="scripts/jquery-2.1.3.min.js"></script>
-		<script type="text/javascript" src="scripts/jquery.color-2.1.2.min.js"></script>
-		<script type="text/javascript" src="scripts/toggle.js"></script>
-
-	</body>
-
-</html>
-
+</section>

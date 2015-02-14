@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body id="tip-top">
+
+    <div id="top-space"></div>
+
+    {% include header.html %}
+
+    {{ content }}
+
+    {% if page.include-footer %}
+
+      {% include footer.html %}
+
+    {% endif %}
+
+    <script type="text/javascript" src="scripts/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.color-2.1.2.min.js"></script>
+    <script type="text/javascript" src="scripts/toggle.js"></script>
+
+  </body>
+
+</html>
