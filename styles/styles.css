@@ -9,7 +9,7 @@ body {
 	height: 100%;
 }
 
-#container-height {
+#container {
 	min-height: 100%;
 	position: relative;
 }
