@@ -1,3 +1,5 @@
+/* test */
+
 html {
 	height: 100%;
 }
@@ -97,7 +99,7 @@ nav li a {
 	width: 80%;
 	max-width: 75em;
 	overflow: hidden;
-	padding-bottom: 8.125em;
+	padding-bottom: 6.125em;
 }
 
 #main-section h1 {
@@ -126,7 +128,7 @@ footer {
 	color: white;
 	overflow: hidden;
 	clear: both;
-	padding: 2em 0; /* for testing */
+	padding: 1em 0; /* for testing */
 }
 
 footer p {
