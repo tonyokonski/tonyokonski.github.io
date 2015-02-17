@@ -8,6 +8,11 @@ body {
 	min-height: 100%;
 }
 
+#container-height {
+	min-height: 100%;
+	position: relative;
+}
+
 img,
 object,
 video {
@@ -91,6 +96,7 @@ nav li a {
 	width: 80%;
 	max-width: 75em;
 	overflow: hidden;
+	padding-bottom: 8.125em;
 }
 
 #main-section h1 {
@@ -110,6 +116,9 @@ section a {
 }
 
 footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
 	margin: 2% auto 0 auto;
 	background-color: #3f3f3f;
 	font-size: .85em;
