@@ -1,6 +1,8 @@
 ---
-layout: default
-title: This is a Test
+layout: post 
+title: "This is a Test"
+date: 2016-06-07
+categories: jekyll update
 ---
 
 This is a test.
