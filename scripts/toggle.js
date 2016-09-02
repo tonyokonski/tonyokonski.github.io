@@ -37,19 +37,36 @@ $(document).ready(function() {
 
 	});
 
-	//skill graph animation
+	//skill graph animation. probably a more elegant solution; needs to be DRY-er
 
 	$('#my-graph').click(function() {
 
-		$('.skill-bar').each(function(){
+		var skillbarWidth = $('.skill-bar').first().width();
+		//alert(skillbarWidth);
+		
+		if (skillbarWidth < 100) {
+			
+			$('.skill-bar').each(function(){
 
-			$(this).animate({
-				width:$(this).attr('data-percentage'),
-				backgroundColor:$(this).attr('data-color')
-			}, 3000 );
+				$(this).animate({
+					width:$(this).attr('data-percentage'),
+					backgroundColor:$(this).attr('data-color')
+				}, 3000 );
 
-		});
+			});
 
+		} else {
+
+			$('.skill-bar').each(function(){
+
+				$(this).animate({
+					width:'5%',
+					backgroundColor:'white'
+				}, 3000 );
+
+			});
+			
+		};
 	});
 
 	//menu hide on scroll attempt. Solution found at https://medium.com/@mariusc23/hide-header-on-scroll-down-show-on-scroll-up-67bbaae9a78c. 
