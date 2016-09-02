@@ -51,7 +51,7 @@ $(document).ready(function() {
 				$(this).animate({
 					width:$(this).attr('data-percentage'),
 					backgroundColor:$(this).attr('data-color')
-				}, 3000 );
+				}, 1200 );
 
 			});
 
@@ -62,7 +62,7 @@ $(document).ready(function() {
 				$(this).animate({
 					width:'5%',
 					backgroundColor:'white'
-				}, 3000 );
+				}, 1200 );
 
 			});
 			
